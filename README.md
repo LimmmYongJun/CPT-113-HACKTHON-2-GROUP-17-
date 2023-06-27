@@ -7,6 +7,7 @@ This is the CPT 113 HACKATHON 2 PROJECT presented to you by Group 17.
 3. Teoh Kai Lun (164277)
 
 ## Description of the Game
+"DragonSlayer" is an exciting adventure game where you play as a hero on a mission to defeat the powerful black dragon, Fatalis, and save the realm of Eldoria. Journey through different landscapes, gather allies, and equip yourself with strong gear. Face challenging enemies and make important decisions. Reach the ultimate showdown in the Pit of End and slay the black dragon to become the legendary DragonSlayer. Can you save Eldoria from destruction? It's up to you!
 
 ## Features of the Game
 
