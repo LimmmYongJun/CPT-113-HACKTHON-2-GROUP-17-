@@ -33,7 +33,7 @@ This is the CPT 113 HACKATHON 2 PROJECT presented to you by Group 17.
 - The battle system is implemented using a stack-based approach.
 - How is it implemented: The BattleSystem class contains an instance of the Stack class to manage the enemies in the battle. It has methods to add enemies to the stack (addEnemy), defeat enemies (defeatEnemy), and check if the enemy stack is empty (isEmpty). The addEnemy method creates a new instance of the Enemy class with the specified parameters and pushes it onto the enemy stack. The defeatEnemy method pops the top enemy from the stack, calculates the damage inflicted by the player, reduces the enemy's health, and displays the battle outcome.
 
-7. Inventory System
+7. Player's Inventory System
 - The player's inventory is stored in a linked list.
 - How is it implemented: The inventory items are represented by the Inventory class. Each node in the linked list contains an Inventory object.
 - The member functions of the linked list are as follows:
@@ -46,6 +46,10 @@ This is the CPT 113 HACKATHON 2 PROJECT presented to you by Group 17.
   if the count becomes zero.
 
   - Printing: We can print the inventory by traversing the linked list and displaying the category, name, and count of each item.
+
+8. Shop Inventory System:
+- The shop inventory is displayed during the game to enable player to buy equipments and potions.
+- How is it implemented: implemented by using a linked list. It includes a Node class to represent each item in the inventory and a ShopInventory class to manage the inventory as a whole. The displayShop function displays the available items in the shop. It traverses the linked list and prints the item name and price for each node.
 
 ## How to Play the Game
 To play "DragonSlayer," follow these steps:
