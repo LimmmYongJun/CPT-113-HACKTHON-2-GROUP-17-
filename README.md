@@ -130,10 +130,8 @@ We have a total of 3 linked lists and 1 stack implemented in the program.
 - The player fights with enemies by using the pop function to remove the top enemy from the stack.
 
 
-## Screenshots of the game
-
 ## A link to the game demo video
-[Demo Video Link](https://youtu.be/A2wiCydb6jA)
+[Demo Video Link](https://youtu.be/_WqLARpHzRg)
 
 
    
