@@ -15,9 +15,11 @@ This is the CPT 113 HACKATHON 2 PROJECT presented to you by Group 17.
 
 2. Save the game
 - This feature will be available after you complete every chapter. It allows you to save your current progress including your team, inventory, gold and chapter you left.
+- How is it implemented: The saveGame function takes team and backpack, both of which are references to LinkedList objects, and chapter, an integer representing the current chapter as parameters. The purpose of this function is to save the game progress by writing the contents of the team and backpack objects to separate files, as well as storing the current chapter in another file.
 
 3. Load the previous game
 - With this feature, you can load a previously saved game. If you have a saved game file, you can load it and continue the chapter from where you left off. This feature ensures that you can resume your game without losing any of your previous game data like team, inventory and chapter you left.
+- How is it implemented: The loadGame function takes team and backpack, both of which are references to LinkedList objects, and chapter, an integer representing the current chapter as parameters. It reads in the data from team, inventory and chapter files.
   
 4. Show game detail
 - This feature provides information and details about the game. It includes character and inventory statistics that help you understand the game better.
