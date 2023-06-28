@@ -42,6 +42,23 @@ Remember, the choices you make and the actions you take will determine the outco
 ## How object-oriented concepts were used to develop the game
 
 ## How linked lists/stacks/queues play a role in the game
+We have a total of 3 linked lists and 1 stack implemented in the program.
+1. One linked list overloaded by multiple member functions to manage the game inventory and team.
+- It provides functionality to append new nodes (characters or inventory items) to the list, search for specific nodes, remove nodes, and print the contents of the list.
+  
+2. One linked list to manage the storyline in the game.
+- Each node of the linked list represents a chapter in the game's story.
+- Allowing easy traversal and retrieval of specific chapters as needed.
+  
+3. One linked list is used to implement the shop inventory system in the game.
+- Serves as a data structure to store and manage the available items in the shop.
+- Each node in the linked list represents an item, and the next pointer connects the nodes to form a chain.
+- Provides a user interface for players to browse and purchase items from the shop.
+
+4. A stack is used as part of the game's battle system.
+- Stores the enemy characters that the player will face.
+- Each time a new enemy appears, it is added to the stack using the push function.
+- The player defeats enemies by using the pop function to remove the top enemy from the stack.
 
 ## Screenshots of the game
 
