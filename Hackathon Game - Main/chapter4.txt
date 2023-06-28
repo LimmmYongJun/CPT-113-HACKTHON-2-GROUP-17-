@@ -1,0 +1,9 @@
+
+					- Nearly There -
+
+> You are getting closer to the Pit of End ...
+> You are walking your way out of the forest in the night. 
+> Suddenly, a big evil bat appeared!
+
+> Enemy in this round:
+  - Evil Bat (500 HP/ 500 ATK)

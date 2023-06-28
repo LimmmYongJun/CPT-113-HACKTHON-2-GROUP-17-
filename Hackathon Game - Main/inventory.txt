@@ -1,0 +1,6 @@
+Coin
+Gold Coin
+0
+Weapon
+Sword
+0
