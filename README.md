@@ -36,16 +36,16 @@ This is the CPT 113 HACKATHON 2 PROJECT presented to you by Group 17.
 7. Inventory System
 - The player's inventory is stored in a linked list.
 - How is it implemented: The inventory items are represented by the Inventory class. Each node in the linked list contains an Inventory object.
-- The member funcsdtion of the linked linst as as follows:
-  Append: When a new item is obtained, we check if an item with the same category already exists in the list. If it does, we increment the count of that item. 
+- The member functions of the linked list are as follows:
+  - Append: When a new item is obtained, we check if an item with the same category already exists in the list. If it does, we increment the count of that item. 
   Otherwise, we create a new node with the item data and add it to the end of the list.
 
-  Search: To find a specific item, we traverse the linked list and compare the name of each item with the desired item.
+  - Search: To find a specific item, we traverse the linked list and compare the name of each item with the desired item.
 
-  Remove: When an item is used or discarded, we search for it in the linked list. If found, we either decrement the count of the item or remove it from the list 
+  - Remove: When an item is used or discarded, we search for it in the linked list. If found, we either decrement the count of the item or remove it from the list 
   if the count becomes zero.
 
-  Printing: We can print the inventory by traversing the linked list and displaying the category, name, and count of each item.
+  - Printing: We can print the inventory by traversing the linked list and displaying the category, name, and count of each item.
 
 ## How to Play the Game
 To play "DragonSlayer," follow these steps:
