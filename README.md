@@ -40,6 +40,28 @@ To play "DragonSlayer," follow these steps:
 Remember, the choices you make and the actions you take will determine the outcome of your heroic journey in "DragonSlayer." Good luck, and may Eldoria be saved!
 
 ## How object-oriented concepts were used to develop the game
+In the program, several object-oriented concepts were used to develop the game.
+
+1. Inheritance
+- Inheritance was utilized to establish an "is-a" relationship between classes.
+- For instance, the classes Knight, Tank, Magician, and Archer inherited from a common base class Hero.
+- This allowed them to inherit common attributes and methods from the base class while also having their own unique characteristics.
+  
+2. Composition
+- Composition was used to create complex objects by combining simpler objects or components.
+- For example, the LinkedList class contained a composition relationship with the ListNode class, where each node was composed of data and a reference to the next node.
+  
+3. Encapsulation
+- Classes were used to encapsulate related data and functionality.
+- For example, classes like Knight, Tank, Magician, Archer, Weapon, Armor, Potion, Coin, etc., were created to encapsulate the properties and behaviors of specific game entities or items.
+
+4. Polymorphism
+- Polymorphism was employed to enable different classes to be used interchangeably through a common interface.
+- The Hero base class had virtual functions that were overridden by the derived classes, allowing objects of different derived classes to be treated uniformly based on their shared base class.
+
+5. Abstraction
+- Abstraction was utilized to represent essential features while hiding unnecessary details.
+- For instance, the LinkedList class abstracted the implementation details of a linked list, providing high-level methods to manipulate the list without exposing the underlying implementation.
 
 ## How linked lists/stacks/queues play a role in the game
 We have a total of 3 linked lists and 1 stack implemented in the program.
