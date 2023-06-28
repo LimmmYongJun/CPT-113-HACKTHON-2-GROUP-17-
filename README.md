@@ -12,6 +12,7 @@ This is the CPT 113 HACKATHON 2 PROJECT presented to you by Group 17.
 ## Features of the Game
 1. Start a new game
 - This feature allows you to begin a new game session. You can create a new hero character, choose a name for your hero, and embark on a fresh adventure in the game world.
+- How is it implemented: The current chapter is set to 0, the team linked list and the inventory linked list are cleared.
 
 2. Save the game
 - This feature will be available after you complete every chapter. It allows you to save your current progress including your team, inventory, gold and chapter you left.
@@ -23,9 +24,28 @@ This is the CPT 113 HACKATHON 2 PROJECT presented to you by Group 17.
   
 4. Show game detail
 - This feature provides information and details about the game. It includes character and inventory statistics that help you understand the game better.
+- How is it implemented: The showGameDetail function creates objects of the character classes (Knight, Tank, Magician, Archer) and inventory item classes (Weapon, Armor, Potion). Then, use 'cout' statement to print member functions (showRole(), showHP(), showATK(), etc.) within these classes to retrieve the respective statistics.
   
 5. Exit the game
 - This feature allows you to gracefully exit the game. When you choose to exit, the game will close.
+
+6. Battle System
+- The battle system is implemented using a stack-based approach.
+- How is it implemented: The BattleSystem class contains an instance of the Stack class to manage the enemies in the battle. It has methods to add enemies to the stack (addEnemy), defeat enemies (defeatEnemy), and check if the enemy stack is empty (isEmpty). The addEnemy method creates a new instance of the Enemy class with the specified parameters and pushes it onto the enemy stack. The defeatEnemy method pops the top enemy from the stack, calculates the damage inflicted by the player, reduces the enemy's health, and displays the battle outcome.
+
+7. Inventory System
+- The player's inventory is stored in a linked list.
+- How is it implemented: The inventory items are represented by the Inventory class. Each node in the linked list contains an Inventory object.
+- The member funcsdtion of the linked linst as as follows:
+  Append: When a new item is obtained, we check if an item with the same category already exists in the list. If it does, we increment the count of that item. 
+  Otherwise, we create a new node with the item data and add it to the end of the list.
+
+  Search: To find a specific item, we traverse the linked list and compare the name of each item with the desired item.
+
+  Remove: When an item is used or discarded, we search for it in the linked list. If found, we either decrement the count of the item or remove it from the list 
+  if the count becomes zero.
+
+  Printing: We can print the inventory by traversing the linked list and displaying the category, name, and count of each item.
 
 ## How to Play the Game
 To play "DragonSlayer," follow these steps:
