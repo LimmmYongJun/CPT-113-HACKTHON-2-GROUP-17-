@@ -11,7 +11,7 @@ This is the CPT 113 HACKATHON 2 PROJECT presented to you by Group 17.
 
 ## Features of the Game
 1. Start a new game
-- This feature allows you to begin a new game session. You can create a new hero character, choose a name for your hero, and embark on a fresh adventure in the game world.
+  - This feature allows you to begin a new game session. You can create a new hero character, choose a name for your hero, and embark on a fresh adventure in the game world.
 
 2. Save the game
 - This feature will be available after you complete every chapter. It allows you to save your current progress including your team, inventory, gold and chapter you left.
