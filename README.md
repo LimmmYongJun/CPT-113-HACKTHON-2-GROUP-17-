@@ -11,7 +11,7 @@ This is the CPT 113 HACKATHON 2 PROJECT presented to you by Group 17.
 
 ## Features of the Game
 1. Start a new game
-  - This feature allows you to begin a new game session. You can create a new hero character, choose a name for your hero, and embark on a fresh adventure in the game world.
+- This feature allows you to begin a new game session. You can create a new hero character, choose a name for your hero, and embark on a fresh adventure in the game world.
 
 2. Save the game
 - This feature will be available after you complete every chapter. It allows you to save your current progress including your team, inventory, gold and chapter you left.
@@ -58,7 +58,7 @@ We have a total of 3 linked lists and 1 stack implemented in the program.
 4. A stack is used as part of the game's battle system.
 - Stores the enemy characters that the player will face.
 - Each time a new enemy appears, it is added to the stack using the push function.
-- The player defeats enemies by using the pop function to remove the top enemy from the stack.
+- The player fights with enemies by using the pop function to remove the top enemy from the stack.
 
 ## Screenshots of the game
 
