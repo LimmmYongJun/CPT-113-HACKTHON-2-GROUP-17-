@@ -129,6 +129,8 @@ We have a total of 3 linked lists and 1 stack implemented in the program.
 - Each time a new enemy appears, it is added to the stack using the push function.
 - The player fights with enemies by using the pop function to remove the top enemy from the stack.
 
+## Screenshots of the game
+The screenshots of the game are in the file above. Kindly refer to the screenshot file. 
 
 ## A link to the game demo video
 [Demo Video Link](https://youtu.be/_WqLARpHzRg)
